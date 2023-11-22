@@ -85,6 +85,9 @@ This integration is in active development. Actions, or the parameters defined th
 ### Get Incident
 - Fetches Incident data (all fields, related incident IDs, as well as external alert data) and returns it in JSON format. This is useful for posting to a CIP HTTP source (using 'Generic HTTP POST' action)
 
+### String Regex
+- Allows the end user to pass a string and any RegEx that is RE2 compliant. The action is also flexible for utilizing capture groups to set output variables dynamically.
+
 
 ### To upload your own content:
 Please see [Sumo Logic Community Ecosystem Apps FAQs](https://help.sumologic.com/docs/integrations/community-ecosystem-apps/#faq).
